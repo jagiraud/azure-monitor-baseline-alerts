@@ -3,22 +3,22 @@
   "contentVersion": "1.0.0.0",
   "parameters": {
     "enterpriseScaleCompanyPrefix": {
-      "value": "contoso"
+      "value": "225b122c-22cd-45b0-95c2-21ee5de01f0d"
     },
     "platformManagementGroup": {
-      "value": "contoso-platform"
+      "value": "2543a2f9-b68c-44cb-ab36-92dc10525d1a"
     },
     "IdentityManagementGroup": {
-      "value": "contoso-identity"
+      "value": "4a5f7946-532c-4005-8163-5ba45607d8c0"
     },
     "managementManagementGroup": {
-      "value": "contoso-management"
+      "value": "1f6a20a4-b665-4b2f-9fac-ee0817bf37b4"
     },
     "connectivityManagementGroup": {
-      "value": "contoso-connectivity"
+      "value": "528e7886-9ce4-4d1b-9ccf-1d6c1ff71f77"
     },
     "LandingZoneManagementGroup": {
-      "value": "contoso-landingzones"
+      "value": "80900586-e812-4602-a30f-5972abf69ac9"
     },
     "enableAMBAConnectivity": {
       "value": "Yes"
@@ -44,7 +44,7 @@
     "policyAssignmentParametersCommon": {
       "value": {
         "ALZMonitorResourceGroupName": {
-          "value": "rg-amba-monitoring-001"
+          "value": "amba-monitoring-rg"
         },
         "ALZMonitorResourceGroupTags": {
           "value": {
@@ -52,7 +52,7 @@
           }
         },
         "ALZMonitorResourceGroupLocation": {
-          "value": "eastus"
+          "value": "westeurope"
         }
       }
     },
@@ -69,7 +69,7 @@
     "policyAssignmentParametersNotificationAssets": {
       "value": {
         "ALZMonitorActionGroupEmail": {
-          "value": ""
+          "value": "jacob@giraud.se"
         },
         "ALZLogicappResourceId": {
           "value": ""
